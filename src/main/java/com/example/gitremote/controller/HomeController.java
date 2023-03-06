@@ -11,5 +11,9 @@ public class HomeController {
     public String index(){
         return "Hello world";
     }
+    @GetMapping("/shout")
+    public String shout(){
+        return "Hello AHRRRRR";
+    }
 
 }
